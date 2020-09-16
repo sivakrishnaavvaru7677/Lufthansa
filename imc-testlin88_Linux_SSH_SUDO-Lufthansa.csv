@@ -1,0 +1,509 @@
+HOST-NAME;SECTION-ID;SECTION-HEADING;SYSTEM-VALUE/PARAMETER;CURRENT-VALUE;TEST-RESULT;SCAN-DATE
+imc-testlin88;AD.1.1.1.1;Password Requirementss;PASS_MAX_DAYS value in /etc/login.defs;90;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.1.2;Password Requirements;PASS_MAX_DAYS;Fifth field of /etc/shadow is not set as 90 for id root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN, password complexity;pasword-minlen-is-set-as-15-in-/etc/login.defs;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN, password complexity;no-violation-for-Complexity-in-/etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN-password_complexity;Password-Complexity-violation-in-/etc/pam.d/system-auth;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.1.2;Password Requirements;PASS_MAX_DAYS;Fifth field of /etc/shadow is not set as 90 for id nagios:x:996:993::/home/nagios:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN, password complexity;pasword-minlen-is-set-as-15-in-/etc/login.defs;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN, password complexity;no-violation-for-Complexity-in-/etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.0;Password Requirementss;PASS_MIN_LEN-password_complexity;Password-Complexity-violation-in-/etc/pam.d/system-auth;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'root:$6$RV2xF6iRfEVbe6gN$u7txvsLv5/cYxe9msXHUuxV.LeaRapWX8ldIpgitGfFNek3Q/oQvCev1fp2sLtlBfNTbSmo.gi8xxXxFzg5pY0::1:90:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'bin:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'daemon:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'adm:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'lp:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'sync:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'shutdown:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'halt:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'mail:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'operator:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'games:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'ftp:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'nobody:*:17492:1:99999:7:::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'systemd-network:!!:18241:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'dbus:!!:18241:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'polkitd:!!:18241:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'sshd:!!:18241:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'postfix:!!:18241:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'sssd:!!:18292:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'chrony:!!:18292:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'nscd:!!:18292:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'tss:!!:18312:1:::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.1;Password Requirements;password specification within /etc/shadow;User 'nagios:!!:18473:1:90::::' has no null value in second field of /etc/shadow;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id bin:x:1:1:744/S/*LUFUNX//system-user:/bin:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id daemon:x:2:2:744/S/*LUFUNX//system-user:/sbin:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id adm:x:3:4:744/S/*LUFUNX//system-user:/var/adm:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id lp:x:4:7:744/S/*LUFUNX//system-user:/var/spool/lpd:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id sync:x:5:0:744/S/*LUFUNX//system-user:/sbin:/bin/sync;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id shutdown:x:6:0:744/S/*LUFUNX//system-user:/sbin:/sbin/shutdown;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id halt:x:7:0:744/S/*LUFUNX//system-user:/sbin:/sbin/halt;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id mail:x:8:12:744/S/*LUFUNX//system-user:/var/spool/mail:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id operator:x:11:0:744/S/*LUFUNX//system-user:/root:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id games:x:12:100:744/S/*LUFUNX//system-user:/usr/games:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id ftp:x:14:50:744/S/*LUFUNX//system-user:/var/ftp:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id nobody:x:99:99:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id systemd-network:x:192:192:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id dbus:x:81:81:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id polkitd:x:999:998:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id sshd:x:74:74:744/S/*LUFUNX//system-user:/var/empty/sshd:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id postfix:x:89:89:744/S/*LUFUNX//system-user:/var/spool/postfix:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id sssd:x:998:995:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id chrony:x:997:994:744/S/*LUFUNX//system-user:/var/lib/chrony:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id nscd:x:28:28:744/S/*LUFUNX//system-user:/:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id tss:x:59:59:744/S/*LUFUNX//system-user:/dev/null:/sbin/nologin;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.2.2;Password Requirements;second field of /etc/passwd;The second field /etc/passwd is set as null for id nagios:x:996:993::/home/nagios:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.1;Password Requirementss;PASS_MIN_DAYS value in /etc/login.defs;1;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id root:$6$RV2xF6iRfEVbe6gN$u7txvsLv5/cYxe9msXHUuxV.LeaRapWX8ldIpgitGfFNek3Q/oQvCev1fp2sLtlBfNTbSmo.gi8xxXxFzg5pY0::1:90:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id bin:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id daemon:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id adm:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id lp:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id sync:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id shutdown:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id halt:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id mail:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id operator:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id games:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id ftp:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id nobody:*:17492:1:99999:7:::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id systemd-network:!!:18241:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id dbus:!!:18241:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id polkitd:!!:18241:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id sshd:!!:18241:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id postfix:!!:18241:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id sssd:!!:18292:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id chrony:!!:18292:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id nscd:!!:18292:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id tss:!!:18312:1:::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.3.2;Password Requirements;Per-userid_Minimum_Password_Age;Field 4 of /etc/shadow is not set as 1 for id nagios:!!:18473:1:90::::;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.1;Password Requirementss;prevent_reuse_of_lat_eight_passwords;pam_unix.so_remember value_set-in-/etc/pam.d/system-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.1;Password Requirementss;prevent_reuse_of_lat_eight_passwords;pam_unix.so_remember value_set-in-/etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.6.0;Password Requirementss;loginretries;Consecutive failed login attempts is set in /etc/pam.d/system-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.6.0;Password Requirementss;loginretries;Consecutive failed login attempts is set in /etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.1;Password Requirements;Password and expiry settings for ROOT;root_passwd setting is incorrect. Please check root password expiry and password status;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.2;Password Requirements;ROOT;Interactive-root-login-is-disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.9.0_AD.1.1.9.1;Password Requirementss;Non-expiring passwords;Not applicable as user ID root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash is locked;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.9.0_AD.1.1.9.1;Password Requirementss;Non-expiring passwords;Not applicable as user ID nagios:x:996:993::/home/nagios:/bin/bash is locked;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.10.1_AD.1.1.11.1_AD.1.1.12.1;Password Requirementss;direct_or_remote_login;User root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash has expiry password set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.10.1_AD.1.1.11.1_AD.1.1.12.1;Password Requirementss;direct_or_remote_login;User nagios:x:996:993::/home/nagios:/bin/bash has expiry password set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.13.3_AD.1.1.10.2;Password Requirementss;Restrict ftp access;ftp_file_exist-but-no-ftp-id;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.13.2;Password Requirementss;/etc/security/<FILENAME>;cannot-be-health-checked;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.13.3,AD.1.1.10.2;Password Requirementss;Restrict ftp access;ftp_file_exist-but-no-ftp-id;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.13.4;Password Requirementss;/etc/ssh/sshd_config;UsePAM_yes_is_valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.2;Logging;/var/log/wtmp;/var/log/wtmp_exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.3.1;Logging;/var/log/messages;/var/log/messsages_exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.4.2;Logging;/var/log/tallylog;file-exists-/var/log/tallylog;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.5;Logging;/var/log/secure;File /var/log/secure exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.7.1;Logging;Synchronized system clocks, ensure it is active;chronyd-is-running;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.7.2;Logging;Synchronized system clocks, chronyd has a server;chronyd-is-active but time-is-not-synchronised;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.7.3;Logging;Synchronized system clocks, chronyd does not have excess privilege;The task is running as chrony ID;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.7.4_AD.1.2.7.5;Logging;NTP Service;NTP Service is Disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.1;System Settings;/etc/pam.d/other;auth-required-account-required-has-pam_deny.so in file /etc/pam.d/other;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.5_AD.1.5.1.1_AD.1.5.1.2_AD.1.5.1.3_AD.1.5.1.4_AD.1.5.1.5_AD.1.5.1.6_AD.1.5.1.7_AD.1.5.1.8;Network Settingss;Anonymous FTP System Settings;FTP service is running but anonymous FTP is disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.2.1_AD.1.5.2.2;Network Settings;TFTP System Setting;Base package tftp or tftp-server is not installed;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.3.1;Network Settingss;/etc/exports;NFS service is not running and file permission is correct;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.4.1;Network Settings;/etc/hosts.equiv;/etc/hosts.equiv-file-not-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.4.2;Network Settingss;/etc/pam.d/rsh-and-/etc/pam.d/rlogin;file-/etc/pam.d/rlogin-and-/etc/pam.d/rsh-not-exists;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.5;Network Settingss;rexd daemon;File /etc/inetd.conf or /etc/xinetd.d/xinted.conf not exists ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.7;Network Settings;X-server access control;X-server packages not installed;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.8.1_AD.1.5.8.2_AD.1.5.8.3_AD.1.5.8.4_AD.1.5.8.5_AD.1.5.8.6_AD.1.5.8.7_AD.1.5.8.8_AD.1.5.9.1_AD.1.5.9.2_AD.1.5.9.3_AD.1.5.9.4_AD.1.5.9.5_AD.1.5.9.6_AD.1.5.9.7_AD.1.5.9.8_AD.1.5.9.9_AD.1.5.9.10_AD.1.5.9.11_AD.1.5.9.12_AD.1.5.9.13_AD.1.5.9.14_AD.1.5.9.15_AD.1.5.9.16_AD.1.5.9.17_AD.1.5.9.28;Network Settings;Denial of Service through xinetd or inetd;xinetd service is not running;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.23;Network Settings;telnet-service;telnet-is-disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.10.1;Network Settings;yppasswdd-daemon;NIS packages not installed.;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.10.2_AD.1.5.10.3;Network Settings;NIS and NIS+ maps;NIS packages not installed;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/init.d is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/rc.d is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/cron.d is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/spool/cron/tabs/root is owned by root - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /opt is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /usr/local is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /tmp is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /usr is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file / is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/security/opasswd is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/shadow is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/passwd is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/faillog is owned by root - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/tallylog is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/wtmp is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/secure is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/lastlog is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/cron is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/btmp is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/hist is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/sa is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/maillog is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/auth.log is owned by root - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/tmp is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/log/messages is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/profile.d/IBMsinit.sh is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/profile.d/IBMsinit.csh is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/inittab is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /var/spool/cron/root is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/crontab is owned by root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.2;Protecting Resources - OSRs;User Ownership;The file /etc/xinetd.conf is owned by root - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/init.d - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/rc.d - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/cron.d - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is not owned by /var/spool/cron/tabs/root - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /opt - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /usr/local - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /tmp - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /usr - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by / - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/security/opasswd - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/shadow - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/passwd - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is not owned by /var/log/faillog - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/tallylog - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group utmp is owned by /var/log/wtmp - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/secure - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/lastlog - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/cron - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group utmp is owned by /var/log/btmp - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/hist - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/sa - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/maillog - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is not owned by /var/log/auth.log - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/tmp - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/log/messages - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/profile.d/IBMsinit.sh - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/profile.d/IBMsinit.csh - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/inittab - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /var/spool/cron/root - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is owned by /etc/crontab - Permission is Valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.1.3;Protecting Resources - OSRs;Groupids assigned to OSRs;This group root is not owned by /etc/xinetd.conf - File Doesnt Exists;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.2.1;Protecting Resources - OSRs;~root/.rhosts;The-file-is-not-available;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.2.2;Protecting Resources - OSRs;~root/.netrc;The-file-is-not-available;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.1;Protecting Resources - OSRs;/-dir-permission;/-dir-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.3;Protecting Resources - OSRs;/etc-dir-permission;/etc-dir-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.1;Protecting Resources - OSRs;/etc/security/opasswd-permission;/etc/security/opasswd-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.5.1;Protecting Resources - OSRs;/var-dir-permission;/var-dir-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.5.2;Protecting Resources - OSRs;/var/log and it's sub-directories permissions;Permission-is-valid for /var/log and it's sub-directories;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.6.1;Protecting Resources - OSRs;/var/log/faillog;Not applicable as pam_tally2 is in use;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.6.2;Protecting Resources - OSRs;/var/log/tallylog;/var/log/tallylog-Permission-is-valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.7.1;Protecting Resources - OSRs;/var/log/messages-permissions;/var/log/messages-permissions is set correct;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.7.2;Protecting Resources - OSRs;/var/log/wtmp-permission;Permission-is-valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.10;Protecting Resources - OSRs;snmpd.conf-permission;snmpd.conf-file-not-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.11;Protecting Resources - OSRs;/var/tmp-permission;/var/tmp-permission-is-valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.12.6;Protecting Resources - OSRs;IBMsinit.sh-permissions;IBMsinit.sh-permission-is-valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.12.7;Protecting Resources - OSRs;IBMsinit.csh-permissions;IBMsinit.csh-permission-is-valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.14.1;Protecting Resources - OSRs;/var/spool/cron/root;Full-path-is-specified-for-command- /usr/bin/echo in-/var/spool/cron/root;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.15.1;Protecting Resources - OSRs;/etc/crontab;No-cron-entry-found-in-/etc/crontab;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.20.1;Protecting Resources - User Resources;/etc/cron.d/-directory-structure;Full-path-is-specified-for-command- /usr/lib64/sa/sa1 in-/etc/cron.d/sysstat;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.20.1;Protecting Resources - User Resources;/etc/cron.d/-directory-structure;Full-path-is-specified-for-command- /usr/lib64/sa/sa2 in-/etc/cron.d/sysstat;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.9.1.2;Protecting Resources - User Resources;IBMsinit.sh Status in /etc/bashrc;IBMsinit.sh exists  in /etc/bashrc;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.9.1.2;Protecting Resources - User Resources;Umask status /etc/bashrc;Umask triggering /etc/profile.d/IBMsinit.sh;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.9.1.2.1;Protecting Resources - User Resources;umask-value-in-/etc/login.defs;umask-value-set-as-UMASK           077;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.1_AD.2.1.2_AV.2.1.1.2_AV.2.1.1.3_AV.2.1.1.4;Encryption;Ciphers-value-in-file-/etc/ssh/sshd_config;aes256-ctr-algorithm-exist-in-ciphers;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.1_AD.2.1.2_AV.2.1.1.2_AV.2.1.1.3_AV.2.1.1.4;Encryption;KexAlogrithm-value-in-file-/etc/ssh/sshd_config;KexAlogrithm-exist-in-ciphers;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.1_AD.2.1.2_AV.2.1.1.2_AV.2.1.1.3_AV.2.1.1.4;Encryption;MACs-value-in-file-/etc/ssh/sshd_config;MACs-exist-in-ciphers;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.7.2;Identify and Authenticate Users;Public Key Authentication;Public Key Authentication is allowed;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-/etc/pam.d/passwd:password;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-sufficient;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-pam;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-/etc/pam.d/password-auth:password;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-sufficient;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-pam;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-/etc/pam.d/password-auth-ac:password;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-sufficient;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-pam;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-/etc/pam.d/system-auth:password;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-sufficient;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-pam;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-/etc/pam.d/system-auth-ac:password;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-sufficient;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.1.3.0_AD.2.1.3.1_AD.2.1.3.2;Encryption;Password-EncryptionRequired;sha512-and-shadow-is-not-set-in-file-pam;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.6;Password Requirements;pam_deny.so requirement.;Pam_deny.so is available in /etc/pam.d/system-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.6;Password Requirements;pam_deny.so requirement.;Pam_deny.so is available in /etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.7;Password Requirements;Ensure pam modules are in correct order;All are in correct order /etc/pam.d/system-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.7;Password Requirements;Ensure pam modules are in correct order;All are in correct order /etc/pam.d/password-auth;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID bin;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID daemon;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID adm;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID lp;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID sync;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID shutdown;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID halt;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID mail;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID operator;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID games;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID ftp;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID nobody;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID dbus;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID postfix;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.7.3;Password_requirement;Password for system ID's;Password is not set for system ID sshd;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.1.4.1;Logging;Login success or failure;/etc/syslog-ng/syslog-ng.conf-Not_Applicable-for-redhat-linux;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.1.4.2;Logging;Login success or failure;/etc/rsyslog.conf entry exist for 'authpriv.*                                              /var/log/secure';yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.1.4.2;Logging;Login success or failure;/etc/rsyslog.conf entry not exist for '';no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.6;Logging;RetainLogFiles;logrotate-is-set as correct for '/var/log/' in-/etc/logrotate.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.7.6;Logging;Synchronized system clocks, ensure it is active;chronyd-is-running;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.3.1.1;System-Settings;Ensure Selinux is installed;Selinux enabled;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.3.1.2_AD.1.4.3.1.3;System-Settings;Ensure the SELinux state is enforcing or permissive;permissive-set-in-file-/etc/selinux/config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.3.1.4;System-Settings;SeLinux Loaded policy;Policy is set to Targeted;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.3.1_AD.1.5.3.3;Network Settingss;/etc/exports;NFS service is not running and file permission is correct;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.18.1_AD.1.5.9.18.2_AD.1.5.9.18.3;Network Settingss;SNMP Service;SNMP Service is Disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.1;Network Settingss;TCP/IP stack setting;net.ipv4.tcp_syncookies = 1-in-/etc/sysctl.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.2;Network Settingss;TCP/IP stack setting;net.ipv4.icmp_echo_ignore_broadcasts = 1-in-/etc/sysctl.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.3;Network Settingss;TCP/IP stack setting;net.ipv4.conf.all.accept_redirects = 0-in-/etc/sysctl.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.5;Network Settingss;/etc/sysctl.conf;Ensure source routed packets are not accepted ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.6;Network Settingss;/etc/sysctl.conf;Ensure secure ICMP redirects are not accepted ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.7;Network Settingss;/etc/sysctl.conf;Ensure suspicious packets are logged ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.8;Network Settingss;/etc/sysctl.conf;Correct-setting-net.ipv4.icmp_ignore_bogus_error_responses = 1-in-/etc/sysctl.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.21.1;Network Settingss;/etc/sysctl.conf;IPv6 router advertisements are not accepted ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.21.2;Network Settingss;/etc/sysctl.conf;IPv6 redirect is correctly configured ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.24.1.1;System Settings;VSFTPD is service is enabled;VSFTPD Service is enabled on the server;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.24.1.2;System Settings;Vsftpd and user_list permission;Vsftpd and user list had permission;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.24.2;System Settings;Disable anonymous ftp if vsftpd is enabled.;Disable anonymous ftp if vsftpd is enabled.;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.25;Network Settingss;Network file system (nfs) settings;No files shared to world in NFS;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.2.1;System Settings;root-user-in-/etc/ftpusers-or-/etc/vsftpd.ftpusers-or-/etc/vsftp/ftpusers;root_id_exist in /etc/ftpusers-or-/etc/vsftpd.ftpusers;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.20.4;Network Settingss;/etc/sysctl.conf;net.ipv4.ip_forward = 0-in-/etc/sysctl.conf;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.8.1;Logging;Audit Daemon;Audit Daemon is running;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.0.1.0;Business Use Notice;Business Use Notice exists;Business use notice mentioned in /etc/motd;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.24.3;System Settings;Configure anonymous_enable settings ;Configure anonymous_enable settings NO;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.2.2;System Settings;Ensure default group for the root account is GID 0;Root GID is set to 0;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.26;Network Settings;NNTP authentication and identification;NNTPD service is not running on the server;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.27;Network Settings;TFTP System Setting;Base package tftp or tftp-server is not installed;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.29;Network Settings;Avahi Setting;Avahi Package was not installed and service is not running;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.30;Network Settings;LDAP;LDAP is not LISTENING;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.35;Network Settings;CUPS;CUPS is not running ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.11.1_AD.1.5.11.2;Network Settings;RSH and RLOGIN;RSH and RLOGIN are disabled;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.2.1;Protecting Resources - OSRs;/usr-dir-permission;/usr-dir-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.2.1_AD.1.8.4.2.3;Protecting Resources - OSRs;/etc/shadow-permission;/etc/shadow-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.2.2_AD.1.8.4.2.4;Protecting Resources - OSRs;/etc/gshadow-permission;/etc/gshadow-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.1;Protecting Resources - OSRs;/etc/crontab-permission;/etc/crontab-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.2;Protecting Resources - OSRs;/etc/cron.hourly-permission;/etc/cron.hourly-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.3;Protecting Resources - OSRs;/etc/cron.daily-permission;/etc/cron.daily-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.4;Protecting Resources - OSRs;/etc/cron.weekly-permission;/etc/cron.weekly-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.5;Protecting Resources - OSRs;/etc/cron.monthly-permission;/etc/cron.monthly-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.4.3.6;Protecting Resources - OSRs;/etc/cron.d-permission;/etc/cron.d-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.12.8;Protecting Resources - OSRs;Gpgcheck;Gpgcheck is set correctly;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.5;Protecting Resources - OSRs;/boot/grub2-permission;/boot/grub2-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.4;Protecting Resources - OSRs;/boot-permission and owner;/boot-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.34;Network Settings;Rsync;Rsync-is Disabled;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.40;Network Settings;RSH;RSH package is not installed;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.11.3;Network Settings;Rexec;Rexec service is disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.13.1;Network Settings;Core dumps and ulimit;Core-dump-ulimit-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.13.2;Network Settings;ASLR;ASLR-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.3.2.2;Protecting Resources - OSRs;/usr Exceptions to OSR;/usr Exceptions to OSR;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.39;Network Settings;Samba;Samba is not installed ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.12.4;Network Settings;Postfix ;Postfix  is installed, configuration is correctly set;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.39;Network Settings;Samba;Samba is not installed ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.41_AD.1.5.9.33;Network Settings;Talk;Talk Package is not installed ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.38;Network Settings;HTTP;HTTP service is not running ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.32;Network Settings;HTTP Proxy;HTTP proxy is Disabled ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.36;Network Settings;DHCP;DHCP Service is Disabled ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.31;Network Settings;IMAP and POP;IMAP and POP Service is Disabled ;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/dev/mqueue;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/dev/shm;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/.Test-unix;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/.X11-unix;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/.ICE-unix;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/.font-unix;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/.XIM-unix;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/tmp/systemd-private-141387f19def4ea0b7f30748ca610408-chronyd.service-WlsBVI/tmp;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/var/log/hist;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/var/tmp;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/var/tmp/systemd-private-04ebc0a6dce44854abc2a6cbe227be21-chronyd.service-uIGMfK/tmp;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.23.1;Protecting Resources - mixed;Ensure sticky bit is set on all world-writable directories;/var/tmp/systemd-private-141387f19def4ea0b7f30748ca610408-chronyd.service-e1NO7k/tmp;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.3.0_AD.30.1.3.0;AntiVirus;AntiVirus Enabled;AntiVirus is running;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.2.0.1.10;Business Use Notice;Business Use Notice exists in Gnome.;GDM is the GNOME Display Manager does not exist;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.3.3.1;System Settings;Audit Daemon;Audit Daemon is running;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.2.1.4.3;Logging;Permission for creating file using Rsyslog;Permission is set 0640;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.4.5;Password Requirementss;Do not accept null passwords;Nullok is not allowed;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.0;Password Requirements;/etc/profile.d/IBMsinit.csh ;OS Automatic Logoff is set in /etc/profile.d/IBMsinit.csh;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.0;Password Requirements;/etc/profile.d/IBMsinit.sh ;OS Automatic Logoff is set in /etc/profile.d/IBMsinit.sh;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.1;Password Requirements;/etc/profile ;/etc/profile.d/IBMsinit.sh_is_enabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.2;Password Requirements;/etc/csh.login ;/etc/profile.d/IBMsinit.csh_is_enabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.3;Password Requirements;/etc/profile.d/IBMsinit.sh;OS Automatic Logoff is set correct in /etc/profile.d/IBMsinit.sh;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.4;Password Requirements;/etc/profile.d/IBMsinit.csh ;OS Automatic Logoff is set in /etc/profile.d/IBMsinit.csh;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.6;Password Requirements;OS Automatic Logoff Login shell which supports time out;Invalid shell  is set for user root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.6;Password Requirements;OS Automatic Logoff Login shell which supports time out;Invalid shell  is set for user nagios:x:996:993::/home/nagios:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.7;Password Requirements;OS Automatic Logoff Login shell which supports time out;Invalid shell  is set for user root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.1.7;Password Requirements;OS Automatic Logoff Login shell which supports time out;Invalid shell  is set for user nagios:x:996:993::/home/nagios:/bin/bash;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.4.3.1.1;System-Settings;Ensure Selinux is installed;Selinux enabled;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.30.0.2.1_AD.30.0.2.2_ZY.1.2.2;Logging;Logging in external system;/etc/rsyslog.conf is properly set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.5.9.24.4.1_AD.1.5.9.24.4.2;Network Settings;vsftpd.conf-permission and SSL check;vsftpd.conf-permission and SSL check is correctly set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.14.2;Protecting Resources - OSRs;/var/spool/cron/root-permissions;/var/spool/cron/root-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.14.3;Protecting Resources - OSRs;/var/spool/cron/root-permissions;/var/spool/cron/root-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.15.2;Protecting Resources - OSRs;/etc/crontab-permissions;/etc/crontab-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.15.3;Protecting Resources - OSRs;/etc/crontab-permissions;/etc/crontab-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.20.2;Protecting Resources - OSRs;/etc/cron.d-permissions;/etc/cron.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.20.3;Protecting Resources - OSRs;/etc/cron.d-permissions;/etc/cron.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.22.1;Protecting Resources - OSRs;/opt-permissions;/opt-Others permission is not valid;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.22.2;Protecting Resources - OSRs;/var-permissions;/var-Group permission is not valid;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.22.3;Protecting Resources - OSRs;/usr/local-permissions;/usr/local-Others permission is not valid;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.22.4;Protecting Resources - OSRs;/tmp-permissions;/tmp-Group permission is not valid;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc0.d-permissions;/etc/rc.d/rc0.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc1.d-permissions;/etc/rc.d/rc1.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc2.d-permissions;/etc/rc.d/rc2.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc3.d-permissions;/etc/rc.d/rc3.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc4.d-permissions;/etc/rc.d/rc4.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc5.d-permissions;/etc/rc.d/rc5.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rc6.d-permissions;/etc/rc.d/rc6.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.2;Protecting Resources - OSRs;/etc/rc.d/rcS.d-permissions;/etc/rc.d/rcS.d-Others permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc0.d-permissions;/etc/rc.d/rc0.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc1.d-permissions;/etc/rc.d/rc1.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc2.d-permissions;/etc/rc.d/rc2.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc3.d-permissions;/etc/rc.d/rc3.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc4.d-permissions;/etc/rc.d/rc4.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc5.d-permissions;/etc/rc.d/rc5.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rc6.d-permissions;/etc/rc.d/rc6.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.18.3;Protecting Resources - OSRs;/etc/rc.d/rcS.d-permissions;/etc/rc.d/rcS.d-Group permission is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.8;Protecting Resources - OSRs;/var/log/secure-permission;/var/log/secure-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.8.9;Protecting Resources - OSRs;/var/log/secure-permission;/var/log/secure-permission-is-correctly-set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.1.3;Password Requirements;Last Password Change;Third field of /etc/shadow is not valid date for id root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AD.1.1.1.3;Password Requirements;Last Password Change;Third field of /etc/shadow is not valid date for id nagios:x:996:993::/home/nagios:/bin/bash;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.1;SystemSettings;KeepAlive;Applicable-only-for-openssh-versions-3.7-or-less;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.9.1;Protecting Resources - User Resources;PermitUserEnvironment;PermitUserEnvironment is set as "no" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.9.3;Protecting Resources - User Resources;AcceptEnv;User Environment variables are correctly set;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.2;System Settings;TCPKeepAlive;Value is set as "yes" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.4;System Settings;MaxConnections;Not Applicable-for-OpenSSH;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.5;System Settings;MaxStartups;Value-is-not-set in /etc/ssh/sshd_config;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.8;System Settings;MaxAuthTries;Value-is-not-set in /etc/ssh/sshd_config;no;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.14;System Settings;AuthKbdInt.Retries;Not Applicable for OpenSSH;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.4.3;System Settings;LoginGraceTime;Value is set as "2m" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.5.1;System Settings;KeyRegenerationInterval;This is not applicable for SSH protocol version 2 for openssh;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.5.2;Network Settingss;SSH-protocol;Value is set as 2 in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.2.1.1.1;Encryption;Data Transmission;Not applicable as the SSH protocol version 1 is not enabled;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.1;Password Requirementss;PermitEmptyPasswords;PermitEmptyPasswords is set as "no" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.7.1.1;IdentifyandAuthenticateUsers;PermitRootLogin;PermitRootLogin is set as "no" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.2.1.2;Logging;LogLevel;LogLevel-set-as "INFO" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.2.1.3;Logging;LogLevel;Log files are readable by root ;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.5.5;Network Settingss;GatewayPorts;GatewayPorts is set as "no" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.7.3.2;IdentifyandAuthenticateUsers;Host-Based Authentication;File /etc/hosts.equiv not exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.7.3.3;IdentifyandAuthenticateUsers;Host-Based Authentication;Host based authentication is disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.9.2;IdentifyandAuthenticateUsers;StrictModes;StrictModes is set as "yes" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.2.0.1.1;Business Use Notice ;PrintMotd;PrintMotd is set as "yes" in /etc/ssh/sshd_config;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.1;Protecting Resources – OSRs;User validation;User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.1;Protecting Resources – OSRs;Group validation;Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.1;Protecting Resources – OSRs;Other validation;Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.2;Protecting Resources – OSRs;User validation;/bin/scp User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.2;Protecting Resources – OSRs;Group validation;/bin/scp Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.2;Protecting Resources – OSRs;Other validation;/bin/scp Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.3;Protecting Resources – OSRs;/bin/scp2;/bin/scp2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.4;Protecting Resources – OSRs;User validation;/bin/sftp User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.4;Protecting Resources – OSRs;Group validation;/bin/sftp Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.4;Protecting Resources – OSRs;Other validation;/bin/sftp Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.5;Protecting Resources – OSRs;/bin/sftp2;/bin/sftp2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.6;Protecting Resources – OSRs;/bin/sftp-server;/bin/sftp-server does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.7;Protecting Resources – OSRs;/bin/sftp-server2;/bin/sftp-server2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.8;Protecting Resources – OSRs;User validation;/bin/slogin User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.8;Protecting Resources – OSRs;Group validation;/bin/slogin Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.8;Protecting Resources – OSRs;Other validation;/bin/slogin Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.9;Protecting Resources – OSRs;User validation;/bin/ssh User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.9;Protecting Resources – OSRs;Group validation;/bin/ssh Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.9;Protecting Resources – OSRs;Other validation;/bin/ssh Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.10;Protecting Resources – OSRs;/bin/ssh2;/bin/ssh2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.11;Protecting Resources – OSRs;User validation;/bin/ssh-add User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.11;Protecting Resources – OSRs;Group validation;/bin/ssh-add Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.11;Protecting Resources – OSRs;Other validation;/bin/ssh-add Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.12;Protecting Resources – OSRs;/bin/ssh-add2;/bin/ssh-add2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.13;Protecting Resources – OSRs;User validation;/bin/ssh-agent User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.13;Protecting Resources – OSRs;Group validation;/bin/ssh-agent Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.13;Protecting Resources – OSRs;Other validation;/bin/ssh-agent Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.14;Protecting Resources – OSRs;/bin/ssh-agent2;/bin/ssh-agent2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.15;Protecting Resources – OSRs;/bin/ssh-askpass;/bin/ssh-askpass does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.16;Protecting Resources – OSRs;/bin/ssh-askpass2;/bin/ssh-askpass2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.17;Protecting Resources – OSRs;/bin/ssh-certenroll2;/bin/ssh-certenroll2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.18;Protecting Resources – OSRs;/bin/ssh-chrootmgr;/bin/ssh-chrootmgr does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.19;Protecting Resources – OSRs;/bin/ssh-dummy-shell;/bin/ssh-dummy-shell does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.20;Protecting Resources – OSRs;User validation;/bin/ssh-keygen User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.20;Protecting Resources – OSRs;Group validation;/bin/ssh-keygen Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.20;Protecting Resources – OSRs;Other validation;/bin/ssh-keygen Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.21;Protecting Resources – OSRs;/bin/ssh-keygen2;/bin/ssh-keygen2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.22;Protecting Resources – OSRs;User validation;/bin/ssh-keyscan User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.22;Protecting Resources – OSRs;Group validation;/bin/ssh-keyscan Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.22;Protecting Resources – OSRs;Other validation;/bin/ssh-keyscan Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.23;Protecting Resources – OSRs;/bin/ssh-pam-client;/bin/ssh-pam-client does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.24;Protecting Resources – OSRs;/bin/ssh-probe;/bin/ssh-probe does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.25;Protecting Resources – OSRs;/bin/ssh-probe2;/bin/ssh-probe2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.26;Protecting Resources – OSRs;/bin/ssh-pubkeymgr;/bin/ssh-pubkeymgr does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.27;Protecting Resources – OSRs;/bin/ssh-signer;/bin/ssh-signer does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.28;Protecting Resources – OSRs;/bin/ssh-signer2;/bin/ssh-signer2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.29;Protecting Resources – OSRs;/lib/libcrypto.a;/lib/libcrypto.a does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.30;Protecting Resources – OSRs;/lib/libssh.a;/lib/libssh.a does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.31;Protecting Resources – OSRs;/lib/libssl.a;/lib/libssl.a does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.32;Protecting Resources – OSRs;/lib/libz.a;/lib/libz.a does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.33;Protecting Resources – OSRs;/lib-exec/openssh/sftp-server;/lib-exec/openssh/sftp-server does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.34;Protecting Resources – OSRs;/lib-exec/openssh/ssh-keysign;/lib-exec/openssh/ssh-keysign does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.35;Protecting Resources – OSRs;/lib-exec/openssh/ssh-askpass;/lib-exec/openssh/ssh-askpass does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.36;Protecting Resources – OSRs;/lib-exec/sftp-server;/lib-exec/sftp-server does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.37;Protecting Resources – OSRs;/lib-exec/ssh-keysign;/lib-exec/ssh-keysign does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.38;Protecting Resources – OSRs;/lib-exec/ssh-rand-helper;/lib-exec/ssh-rand-helper does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.39;Protecting Resources – OSRs;/libexec/openssh/sftp-server;/libexec/openssh/sftp-server does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.40;Protecting Resources – OSRs;/libexec/openssh/ssh-keysign;/libexec/openssh/ssh-keysign does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.41;Protecting Resources – OSRs;/libexec/openssh/ssh-askpass;/libexec/openssh/ssh-askpass does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.42;Protecting Resources – OSRs;/libexec/sftp-server;/libexec/sftp-server does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.43;Protecting Resources – OSRs;/libexec/ssh-keysign;/libexec/ssh-keysign does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.44;Protecting Resources – OSRs;/libexec/ssh-rand-helper;/libexec/ssh-rand-helper does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.45;Protecting Resources – OSRs;User validation;/sbin/sshd User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.45;Protecting Resources – OSRs;Group validation;/sbin/sshd Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.45;Protecting Resources – OSRs;Other validation;/sbin/sshd Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.46;Protecting Resources – OSRs;/sbin/sshd2;/sbin/sshd2 does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.47;Protecting Resources – OSRs;/sbin/sshd-check-conf;/sbin/sshd-check-conf does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.49;Protecting Resources – OSRs;/lib/svc/method/sshd;/lib/svc/method/sshd does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.2.50;Protecting Resources – OSRs;/usr/lib/ssh/sshd;/usr/lib/ssh/sshd does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.1;Protecting Resources – OSRs;/etc/openssh/sshd_config;/etc/openssh/sshd_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.2;Protecting Resources – OSRs;User validation;/etc/ssh/sshd_config User is System user;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.2;Protecting Resources – OSRs;Group validation;/etc/ssh/sshd_config Group is System Group;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.2;Protecting Resources – OSRs;Other validation;/etc/ssh/sshd_config Other's permission is set correctly;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.3;Protecting Resources – OSRs;/etc/ssh/sshd2_config;/etc/ssh/sshd2_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.4;Protecting Resources – OSRs;/etc/ssh2/sshd_config;/etc/ssh2/sshd_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.5;Protecting Resources – OSRs;/etc/ssh2/sshd2_config;/etc/ssh2/sshd2_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.6;Protecting Resources – OSRs;/etc/sshd_config;/etc/sshd_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.7;Protecting Resources – OSRs;/etc/sshd2_config;/etc/sshd2_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.8;Protecting Resources – OSRs;/usr/local/etc/sshd_config;/usr/local/etc/sshd_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.9;Protecting Resources – OSRs;/usr/local/etc/sshd2_config;/usr/local/etc/sshd2_config does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.8.3.10;Protecting Resources – OSRs;/usr/lib/ssh/ssh-keysign;/usr/lib/ssh/ssh-keysign does not exists;Yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.4_AV.1.1.5;Password Requirements;Private Key Passphrases;This cann't be health checked;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.7.1.2;Identify and Authenticate Users;PermitRootLogin;Root Login is not present-/usr/lib/ssh/ssh-keysign;No;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.2.2;Logging;Protocol version ;2;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/root:x:0:0:744/S/*LUFUNX//system-user:/root:/bin/bash/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/bin:x:1:1:744/S/*LUFUNX//system-user:/bin:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/daemon:x:2:2:744/S/*LUFUNX//system-user:/sbin:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/adm:x:3:4:744/S/*LUFUNX//system-user:/var/adm:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/lp:x:4:7:744/S/*LUFUNX//system-user:/var/spool/lpd:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/sync:x:5:0:744/S/*LUFUNX//system-user:/sbin:/bin/sync/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/shutdown:x:6:0:744/S/*LUFUNX//system-user:/sbin:/sbin/shutdown/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/halt:x:7:0:744/S/*LUFUNX//system-user:/sbin:/sbin/halt/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/mail:x:8:12:744/S/*LUFUNX//system-user:/var/spool/mail:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/operator:x:11:0:744/S/*LUFUNX//system-user:/root:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/games:x:12:100:744/S/*LUFUNX//system-user:/usr/games:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/ftp:x:14:50:744/S/*LUFUNX//system-user:/var/ftp:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/nobody:x:99:99:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/systemd-network:x:192:192:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/dbus:x:81:81:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/polkitd:x:999:998:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/sshd:x:74:74:744/S/*LUFUNX//system-user:/var/empty/sshd:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/postfix:x:89:89:744/S/*LUFUNX//system-user:/var/spool/postfix:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/sssd:x:998:995:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/chrony:x:997:994:744/S/*LUFUNX//system-user:/var/lib/chrony:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/nscd:x:28:28:744/S/*LUFUNX//system-user:/:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/tss:x:59:59:744/S/*LUFUNX//system-user:/dev/null:/sbin/nologin/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;AV.1.1.6_AV.1.1.7;Password Requirements;Private Key Passphrases - system-to-system authentication;/home/nagios:x:996:993::/home/nagios:/bin/bash/.ssh/authorized_keys-doesnt-exist;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.2.4_AV.1.2.4;Logging;Retain Log Files;Logrotate for /var/log/secure is-set-as correct in /etc/logrotate.d/syslog;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.2.0_ZY.1.4.2.1;System Settings;Commands which allow shell escape;noexec is enabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.2.3;System Settings;Commands which allow shell escape;This-is-not-for-Linux;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.3.3;System Settings;Preventing Nested Sudo invocation;ALL-ALL=!SUDOSUDO-found;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.2.3_ZY.1.4.4;Logging;Secondary logging;Secondary login is in place;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.2.1;Logging;Sudo Logging must not be disabled;Sudo logging is not disabled;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.3.1_ZY.1.8.2.1_ZY.1.8.2.2_ZY.1.8.1.2_ZY.1.8.1.4;System Settings;Specific commands/programs executed via sudo_;Full path specified for command "/etc/sudoers.d/010_STD_NEG_GLB" in sudoers config file having include or includedir statements;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.3.1_ZY.1.8.2.1_ZY.1.8.2.2_ZY.1.8.1.2_ZY.1.8.1.4;System Settings;Specific commands/programs executed via sudo_;Full path specified for command "/etc/sudoers.d/010_STD_ALIAS_GLB" in sudoers config file having include or includedir statements;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.3.1_ZY.1.8.2.1_ZY.1.8.2.2_ZY.1.8.1.2_ZY.1.8.1.4;System Settings;Specific commands/programs executed via sudo_;Full path specified for command "/etc/sudoers.d/010_STD_SA_GLB" in sudoers config file having include or includedir statements;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.8.1.0;Protecting Resources - OSRs;/etc/sudoers permission;Permission of /etc/sudoers is valid;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.4.5;System Settings;Editors used with sudo privileges;This cann't be health checked;Not_Applicable;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.8.1.1_ZY.1.8.1.3_ZY.1.8.1.5_ZY.1.8.1.6_ZY.1.8.2.3;Protecting Resources - OSRs;File permission in /etc/sudoers.d and /etc/sudoers;File permission is valid for /etc/sudoers.d/010_STD_NEG_GLB;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.8.1.1_ZY.1.8.1.3_ZY.1.8.1.5_ZY.1.8.1.6_ZY.1.8.2.3;Protecting Resources - OSRs;File permission in /etc/sudoers.d and /etc/sudoers;File permission is valid for /etc/sudoers.d/010_STD_ALIAS_GLB;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.1.8.1.1_ZY.1.8.1.3_ZY.1.8.1.5_ZY.1.8.1.6_ZY.1.8.2.3;Protecting Resources - OSRs;File permission in /etc/sudoers.d and /etc/sudoers;File permission is valid for /etc/sudoers.d/010_STD_SA_GLB;yes;Tue-Sep-15-2020-12:59:50
+imc-testlin88;ZY.30.0.2;Logging;Sudo Logging in external system;Sudo Logging is using authpriv;yes;Tue-Sep-15-2020-12:59:50
